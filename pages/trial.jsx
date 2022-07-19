@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
-function Home() {
+function Trial() {
   const [name, setName] = useState([]);
   const [allData, setAllData] = useState([]);
   const [show, setShow] = useState(false);
@@ -78,13 +78,13 @@ function Home() {
     </Wrapper>
   );
 }
-export default Home;
+export default Trial;
 
 const Wrapper = styled.div``;
 
 const TodoContainer = styled.div`
   background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
-  height: 100%;
+  /* height: 100vh; */
 `;
 
 const Header = styled.div`
