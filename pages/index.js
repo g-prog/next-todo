@@ -196,7 +196,6 @@ const EditButton = styled.button`
   @media (max-width: 500px) {
     width: 50px;
     height: 20px;
-    padding: 10px 5px;
   }
 `;
 
